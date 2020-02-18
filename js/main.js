@@ -18,3 +18,5 @@ if (ageRequest < 18) {
 
 }
 console.log(totalprice);
+document.getElementById('totalprice').innerHTML = "Prezzo del biglietto: " + totalprice + " €";
+document.getElementById('totalprice').setAttribute("class","input");
