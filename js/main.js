@@ -10,7 +10,7 @@ var priceXKm = 0.21;
 if (ageRequest < 18) {
     var totalprice = 0.8 * kmRequest * priceXKm;
 } else if  (ageRequest > 65) {
-    var totalprice = 0.4 * kmRequest * priceXKm;
+    var totalprice = 0.6 * kmRequest * priceXKm;
 }else {
     var totalprice = kmRequest * priceXKm;
 
